@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  outline: 1px solid red;
+}
+
+img {
+  display: block;
+}
+
+.about-us {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+.about-us .container {
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+@media screen and (min-width: 480px) {
+  .about-us .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+  }
+}
+
+.about-us .container .about-us-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us .container .about-us-photos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us .container .about-us-photos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-us .container .about-us-photos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0;
+  }
+}
+
+.about-us .desc {
+  margin-bottom: 20px;
+}
+
+.photos {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
