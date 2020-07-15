@@ -8,7 +8,7 @@
   margin-right: auto;
   @media screen and (min-width: 320px) and (max-width: 480px) {
     width: 100%;
-    min-height: calc(385px + (385 + 195 * 0.66) * ((100vw - 320px) / 480));
+    min-height: calc(385px + (385 + 95 * 0.8) * ((100vw - 320px) / 480));
   }
   @media screen and (min-width: 480px) {
     width: 100%;
@@ -225,7 +225,7 @@
     color: $color-title-main;
   }
   @media screen and (max-width: 480px) {
-    font-size: calc(13px + (6 + 6 * 0.7) * ((100vw - 320px) / 480));
+    font-size: calc(13px + (5 + 5 * 0.7) * ((100vw - 320px) / 480));
   }
   @media screen and (min-width: 480px) {
     font-size: 18px;
