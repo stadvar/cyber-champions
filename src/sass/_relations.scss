@@ -91,11 +91,12 @@
 .sign__item {
   background-color: transparent;
   @include small-title($color-bg-main);
+
   text-transform: none;
   width: 100%;
   border: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-  padding: 8px 0;
+  padding: 8px 10px;
   &::placeholder {
     @include small-title(rgba(157, 164, 189, 0.4));
   }
@@ -111,8 +112,8 @@
 
 .sign__comment > .sign__item {
   min-height: 75px;
-  max-height: 105px;
-  resize: vertical;
+  // max-height: 105px;
+  resize: none;
 }
 .sign__button {
   @include button(inherit);
@@ -185,6 +186,12 @@
 .contacts__address,
 .contacts__phone {
   margin: 0 0 20px;
+}
+.contacts__phone:hover,
+.contacts__phone:focus,
+.contacts__mail:hover,
+.contacts__mail:focus {
+  color: $color-accent;
 }
 
 .contacts__icon {

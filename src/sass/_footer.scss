@@ -32,6 +32,10 @@
   line-height: 1.36;
   color: $color-title-main;
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
 }
 .fsocials__item:not(:last-child) {
   margin-right: 40px;
