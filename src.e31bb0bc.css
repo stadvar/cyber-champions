@@ -1234,6 +1234,7 @@ a {
     justify-content: flex-end;
   }
 }
+
 .features-list-first .item:first-child,
 .features-list-second .item:first-child {
   margin-bottom: 30px;
