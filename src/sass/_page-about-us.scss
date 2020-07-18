@@ -46,14 +46,11 @@
   .about-us-title {
     margin: 0 0 25px;
     padding: 0;
-    // display: inline-flex;
-    // align-items: center;
     @include small-title($color-title-main);
     &::before {
       @include pseudo-line($color-text-transparent);
       margin: 0 20px 0 0;
       vertical-align: middle;
-      // либо это свойство, либо инлайн-флекс выше
     }
 
     @media screen and (min-width: 768px) {
